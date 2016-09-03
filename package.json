@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --inline",
-    "build": "node_modules/.bin/webpack --config webpack-production.config.js -p"
+    "build": "node_modules/.bin/webpack --config webpack-production.config.js -p",
+    "startProd": "http-server"
   },
   "repository": {
     "type": "git",
