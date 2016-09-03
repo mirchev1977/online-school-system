@@ -4,7 +4,8 @@
   "description": "online school system",
   "main": "server.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --inline"
+    "start": "node_modules/.bin/webpack-dev-server --inline",
+    "build": "node_modules/.bin/webpack --config webpack-production.config.js -p"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,8 @@
     "strip-loader": "^0.1.2",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
   }
 }
