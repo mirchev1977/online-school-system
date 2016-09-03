@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
 	entry: ['./utils.js', './app.js'],
 	output: {
@@ -5,6 +7,13 @@ module.exports = {
 	},
 
 	module:{
+		preLoaders: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				loader: 'jshint-loader'
+			}
+		],
 		loaders: [
 			{
 				test: /\.es6$/,

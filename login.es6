@@ -1,7 +1,11 @@
-let login = (username, password) =>{
-	if (username !== 'admin' || password !== 'radical') {
-		console.log("incorrect login");
-	}
-}
+(function(){
+	"use strict";
 
-login('admin', 'idunno');
+	let login = (username, password) =>{
+		if (username !== 'admin' || password !== 'radical') {
+			console.log("incorrect login");
+		}
+	}
+
+	login('admin', 'idunno');
+}());
