@@ -1,4 +1,1 @@
-"use strict";
-	
-// This is global JS provided to all apps.
-console.log('logging from the utils.js file...');
+console.log('Here are all common utils for the web pages');
