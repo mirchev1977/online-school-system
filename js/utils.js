@@ -1,6 +1,4 @@
-(function(){
-	"use strict";
+"use strict";
 	
-	// This is global JS provided to all apps.
-	console.log('logging from the utils.js file...');
-}());
+// This is global JS provided to all apps.
+console.log('logging from the utils.js file...');
