@@ -44,7 +44,9 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	console.log('hello world!');
+	document.write("Welcome to Big Hair Concerts!");
+
+	console.log('App loaded');
 
 /***/ }
 /******/ ]);
