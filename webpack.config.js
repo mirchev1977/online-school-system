@@ -8,9 +8,9 @@ var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('shared.js');
 module.exports = {
 	context: path.resolve('js'),
 	entry: {
-		about: './about_page.js',
-		home: './home_page.js',
-		contact: './contact_page.js'
+		about: ['./utils.js', './about_page.js'],
+		home: ['./utils.js', './home_page.js'],
+		contact: ['./utils.js', './contact_page.js'],
 	},
 	output: {
 		path: path.resolve('build/js/'),
