@@ -4,8 +4,8 @@
   "description": "online school system",
   "main": "server.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --inline",
-    "build": "node_modules/.bin/webpack --config webpack-production.config.js -p",
+    "start": "node_modules/.bin/webpack-dev-server --inline -d",
+    "build": "node_modules/.bin/webpack --config webpack-production.config.js -p -d",
     "startProd": "http-server"
   },
   "repository": {
