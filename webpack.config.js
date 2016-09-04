@@ -50,7 +50,7 @@ module.exports = {
 				loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader!sass-loader")
 			},
 			{
-				test: /\.(png|jpg)$/, 
+				test: /\.(png|jpg|ttf|eot)$/, 
 				exclude: /node_modules/,
 				loader: 'url-loader?limit=10000'
 			}
